@@ -1,0 +1,4 @@
+spawn-at-startup "bash" "-c" "wl-paste --watch cliphist store &"
+spawn-at-startup "/usr/lib/polkit-kde-authentication-agent-1"
+spawn-sh-at-startup "noctalia-shell"
+//spawn-sh-at-startup "sleep 2 && noctalia-shell ipc call bar toggle"

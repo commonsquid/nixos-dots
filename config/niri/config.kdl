@@ -1,0 +1,20 @@
+
+//                       o      8       o                 
+//                              8                         
+// .oPYo. .oPYo. o    o o8 .oPYo8      o8 odYo. .oPYo.    
+// Yb..   8    8 8    8  8 8    8       8 8' `8 8    '    
+//   'Yb. 8    8 8    8  8 8    8       8 8   8 8    .    
+// `YooP' `YooP8 `YooP'  8 `YooP' 88    8 8   8 `YooP' 88 
+// :.....::....8 :.....::..:.....:`P :::....::..:.....:..:
+// ::::::::::::8 ::::::::::::::::::.::::::::::::::::::::::
+// ::::::::::::..:::::::::::::::::::::::::::::::::::::::::
+
+include "configs/monitors.kdl"
+include "configs/input.kdl"
+include "configs/layout.kdl"
+include "configs/rules.kdl"
+include "configs/startup.kdl"
+include "configs/environment.kdl"
+include "configs/animation.kdl"
+include "configs/keybinds.kdl"
+include "./noctalia.kdl"
