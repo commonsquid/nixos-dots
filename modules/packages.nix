@@ -1,4 +1,4 @@
-{ config, pkgs, ... }:
+{ config, pkgs, inputs, ... }:
 
 {
   environment.systemPackages = with pkgs; [
@@ -9,6 +9,7 @@
     gruvbox-material-gtk-theme
     gtk-engine-murrine
     imagemagick
+    inputs.noctalia.packages.${pkgs.stdenv.hostPlatform.system}.default
     megasync
     neovim
     openssh
