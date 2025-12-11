@@ -1,5 +1,4 @@
 result
-hosts/*/default.nix
 hosts/*/hardware-configuration.nix
 *.swp
 *.swo
