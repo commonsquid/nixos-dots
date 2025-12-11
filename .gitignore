@@ -1,1 +1,2 @@
-hosts/
+hosts/laptop/default.nix
+hosts/laptop/hardware-configuration.nix
