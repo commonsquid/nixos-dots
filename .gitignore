@@ -1,2 +1,5 @@
-hosts/laptop/default.nix
-hosts/laptop/hardware-configuration.nix
+result
+hosts/*/default.nix
+hosts/*/hardware-configuration.nix
+*.swp
+*.swo
